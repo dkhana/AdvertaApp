@@ -1,0 +1,120 @@
+<ion-content padding>
+  <ion-buttons end>
+    <button ion-button icon-only clear class="btnMenu" (click)="menu()">
+      <ion-icon name='md-more'></ion-icon>
+    </button>
+  </ion-buttons>
+
+  <ion-toolbar primary>
+    <ion-row>
+      <ion-col width20>
+        <button ion-button icon-only clear>
+          <ion-icon color="dark" name="search"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col width80>
+        <ion-input type="text" placeholder="Search..."></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+
+  <ion-content class="top-placement">
+  <ion-card>
+    <button ion-button class="btnAdd" (click)="dbAddTop1()">
+        <ion-icon class="iconAdd" name="add-circle"></ion-icon>
+    </button>
+    <button ion-button class="btnEdit" (click)="dbEditTop1()">
+        <ion-icon class="iconEdit" name="refresh-circle"></ion-icon>
+    </button>
+    <button ion-button class="btnDelete" (click)="dbDeleteTop1()">
+        <ion-icon class="iconDelete" name="close-circle"></ion-icon>
+    </button>
+    <img src="assets/imgs/l1.png"/>
+  </ion-card>
+
+  <ion-card>
+      <button ion-button class="btnAdd" (click)="dbAddTop2()">
+          <ion-icon class="iconAdd" name="add-circle"></ion-icon>
+      </button>
+      <button ion-button class="btnEdit" (click)="dbEditTop2()">
+          <ion-icon class="iconEdit" name="refresh-circle"></ion-icon>
+      </button>
+      <button ion-button class="btnDelete" (click)="dbDeleteTop2()">
+          <ion-icon class="iconDelete" name="close-circle"></ion-icon>
+      </button>
+    <img src="assets/imgs/l2.png"/>
+  </ion-card>
+
+  <ion-card >
+      <button ion-button class="btnAdd" (click)="dbAddTop3()">
+          <ion-icon class="iconAdd" name="add-circle"></ion-icon>
+      </button>
+      <button ion-button class="btnEdit" (click)="dbEditTop3()">
+          <ion-icon class="iconEdit" name="refresh-circle"></ion-icon>
+      </button>
+      <button ion-button class="btnDelete" (click)="dbDeleteTop3()">
+          <ion-icon class="iconDelete" name="close-circle"></ion-icon>
+      </button>
+    <img src="assets/imgs/l3.png" />
+  </ion-card>
+  </ion-content>
+
+  <ion-content class="middle-placement">
+    <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="assets/imgs/m1.png"/>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img src="assets/imgs/m2.png"/>
+      </ion-card>
+      </ion-col>
+      </ion-row>
+
+    <ion-row>
+      <ion-col >
+          <ion-card>
+            <img src="assets/imgs/m3.png"/>
+          </ion-card>
+      </ion-col>
+      <ion-col>
+          <ion-card>
+            <img src="assets/imgs/m4.png"/>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+  </ion-content>
+
+  <ion-content class="bottom-placement">
+    <ion-row>
+      <ion-col col-3>
+          <img src="assets/imgs/s1.png" class="image"/>
+      </ion-col>
+      <ion-col col-7>
+          <p class="description">Enjoy our cosmetic combo deals until 22nd July 2018.</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-3>
+          <img src="assets/imgs/s2.png" class="image"/>
+        </ion-col>
+        <ion-col col-7>
+          <p class="description">Ultimate comfort Mudaser look. Get 15% for early 15 comers.</p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+          <ion-col col-3>
+            <img src="assets/imgs/s3.png" class="image"/>
+          </ion-col>
+          <ion-col col-7>
+            <p class="description">Check out our August Special. 15% off for Gildan Hoodies.</p>
+          </ion-col>
+        </ion-row>
+  </ion-content>
+</ion-content>

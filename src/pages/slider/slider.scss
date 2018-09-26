@@ -1,0 +1,33 @@
+page-slider{
+    .swiper-pagination-bullet-active {
+      background: white;
+    }
+  
+  
+    h1 {
+     font-weight: bold;
+     text-align: left;
+     text-transform: uppercase;
+     margin-left: 30px;
+   }
+  
+   p {
+     font-size: 18px;
+     line-height: 1.5;
+     color: white;
+     position: static;
+     text-align: left;
+     margin-left: 30px;
+     margin-right: 30px;
+  
+   }
+  
+   .slide-image {
+     max-height: 30%;
+     max-width: 50%;
+     margin: 18px 0;
+     margin-right: 170px;
+   }
+  
+  }
+  

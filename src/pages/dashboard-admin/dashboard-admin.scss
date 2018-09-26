@@ -1,0 +1,108 @@
+page-dashboard-admin {
+
+    .btnMenu{
+      font-size: 20px;
+      margin-top: 5%;
+    }
+  
+    .top-placement {
+      margin-bottom: -85%;
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      }
+    }
+  
+    .btnAdd {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+    }
+  
+    .btnAdd:hover {
+      background-color: #E8775D;
+    }
+  
+    .iconAdd{
+      font-size: 35px;
+    }
+  
+    .btnEdit {
+      position: absolute;
+      top: 43%;
+      left: 15%;
+      transform: translate(-30%, -30%);
+      -ms-transform: translate(-30%, -30%);
+      background-color: #555;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+    }
+  
+    .btnEdit:hover {
+      background-color: #E8775D;
+    }
+  
+    .iconEdit{
+      font-size: 35px;
+    }
+  
+    .btnDelete {
+      position: absolute;
+      top: 43%;
+      left: 75%;
+      transform: translate(-30%, -30%);
+      -ms-transform: translate(-30%, -30%);
+      background-color: #555;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+    }
+  
+    .btnDelete:hover {
+      background-color: #E8775D;
+    }
+  
+    .iconDelete{
+      font-size: 35px;
+    }
+  
+  
+    .middle-placement {
+      margin-bottom: -100%;
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 115px;
+      }
+    }
+  
+    .bottom-placement {
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      }
+  
+      .image {
+        height: 70px;
+        width: 70px;
+      }
+  
+      .description {
+        letter-spacing: 1px;
+      }
+  
+  }
+  }
+  

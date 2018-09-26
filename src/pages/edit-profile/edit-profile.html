@@ -1,0 +1,36 @@
+<ion-content padding>
+  <ion-item no-lines class="btnBack">
+          <button item-right ion-button icon-only clear (click)="Back()">
+              <ion-icon name='arrow-back'></ion-icon>
+          </button>
+  </ion-item>
+
+  <p class="title">Edit Profile</p>
+
+  <form >
+    <ion-list class="editDetails">
+      <ion-item>
+        <ion-label floating>Full Name</ion-label>
+        <ion-input type="text "></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Edit Username</ion-label>
+        <ion-input type="text "></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Change Email</ion-label>
+        <ion-input type="text "></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Change Password</ion-label>
+        <ion-input type="password "></ion-input>
+      </ion-item>
+    </ion-list>
+  </form>
+
+  <button ion-button color="primary" class="btnEditPro" round>save changes</button>
+  <button ion-button color="primary" class="cancelEdit" clear block (click)="cancelEdit()">Cancel</button>
+</ion-content>

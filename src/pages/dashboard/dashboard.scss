@@ -1,0 +1,47 @@
+page-dashboard {
+
+    .btnContact{
+      font-size: 20px;
+      margin-top: 5%;
+    }
+  
+    .top-placement {
+      margin-bottom: -85%;
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      }
+    }
+  
+    .middle-placement {
+      margin-bottom: -100%;
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 115px;
+      }
+    }
+  
+    .bottom-placement {
+      ion-card {
+        position: relative;
+        text-align: center;
+        height: 100px;
+        width: 300px;
+      }
+  
+      .image {
+        height: 70px;
+        width: 70px;
+      }
+  
+      .description {
+        letter-spacing: 1px;
+      }
+  
+  }
+  }
+  

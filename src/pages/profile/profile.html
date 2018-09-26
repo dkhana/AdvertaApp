@@ -1,0 +1,40 @@
+<ion-content padding>
+  <ion-item no-lines>
+    <ion-buttons>
+        <button item-left ion-button icon-only clear class="btnBack" (click)="Back()">
+            <ion-icon name='arrow-back'></ion-icon>
+        </button>
+  
+        <button item-right ion-button icon-only clear class="btnLogout" (click)="Logout()">
+            <ion-icon name='log-out'></ion-icon>
+        </button>
+    </ion-buttons>
+  
+    <!-- <ion-buttons right>
+        <button item-end ion-button icon-only clear class="btnLogout" (click)="Logout()">
+            <ion-icon name='log-out'></ion-icon>
+        </button>
+    </ion-buttons> -->
+  
+  </ion-item>
+  
+  <ion-list>
+  <ion-item no-lines>
+    <button item-start class="usrName">AR Azimah</button>
+  </ion-item>
+  
+  <ion-item no-lines>
+      <button item-start class="btnEdit" (click)="Edit()">Edit Profile</button>
+  </ion-item>
+  
+    <p no-lines class="Clt">Collection</p>
+    <ion-grid>
+        <ion-row>
+          <ion-col>
+          <div><img src="assets/imgs/l1.png"/></div>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+  </ion-list>
+  </ion-content>
+  

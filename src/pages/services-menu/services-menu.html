@@ -1,0 +1,29 @@
+<ion-content>
+  <ion-buttons end>
+    <button ion-button icon-only clear class="btnClose" (click)="serviceClose()">
+      <ion-icon name='close'></ion-icon>
+    </button>
+  </ion-buttons>
+
+  <ion-list no-border>
+    <ion-list-header class="menu">
+      Menu
+    </ion-list-header>
+
+    <ion-item class="lists" (click)="adminAdd()">
+      Add Advertisement
+    </ion-item>
+
+    <ion-item class="lists">
+      Update Advertisement
+    </ion-item>
+
+    <ion-item class="lists">
+      Remove Advertisment
+    </ion-item>
+
+    <ion-item class="lists">
+      View Advertisment
+    </ion-item>
+  </ion-list>
+</ion-content>

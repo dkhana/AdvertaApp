@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-buttons end>
+    <button ion-button icon-only clear class="btnClose" (click)="close()">
+      <ion-icon name='close'></ion-icon>
+    </button>
+  </ion-buttons>
+
+  <ion-list no-border>
+    <ion-list-header class="menu">
+      Menu
+    </ion-list-header>
+
+    <ion-item class="lists" (click)="Services()">
+      Services
+    </ion-item>
+
+    <ion-item class="lists">
+      User Summary
+    </ion-item>
+
+    <ion-item class="lists" (click)="adLogout()">
+      Log Out
+    </ion-item>
+  </ion-list>
+
+</ion-content>
