@@ -22,6 +22,15 @@ import { ResetPasswordPage } from '../pages/reset-password/reset-password';
 import { AdvertDetails_3Page } from '../pages/advert-details-3/advert-details-3';
 import { DashboardAdminPage } from '../pages/dashboard-admin/dashboard-admin';
 import { ServicesMenuPage } from '../pages/services-menu/services-menu';
+import { RemoveAdvertPage } from '../pages/remove-advert/remove-advert';
+import { AdvertSortingPage } from '../pages/advert-sorting/advert-sorting';
+import { AdvertInfoPage } from '../pages/advert-info/advert-info';
+import { UserSummaryPage } from '../pages/user-summary/user-summary';
+import { UserDetailPage } from '../pages/user-detail/user-detail';
+import { BusinessDetailPage } from '../pages/business-detail/business-detail';
+import { EditBusinessDetailPage } from '../pages/edit-business-detail/edit-business-detail';
+
+
 
 @NgModule({
   declarations: [
@@ -42,7 +51,14 @@ import { ServicesMenuPage } from '../pages/services-menu/services-menu';
     CheckEmailPage,
     DoneResetPage,
     ResetPasswordPage,
-    ServicesMenuPage
+    ServicesMenuPage,
+    RemoveAdvertPage,
+    AdvertSortingPage,
+    AdvertInfoPage,
+    UserSummaryPage,
+    UserDetailPage,
+    BusinessDetailPage,
+    EditBusinessDetailPage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +83,14 @@ import { ServicesMenuPage } from '../pages/services-menu/services-menu';
     CheckEmailPage,
     DoneResetPage,
     ResetPasswordPage,
-    ServicesMenuPage
+    ServicesMenuPage,
+    RemoveAdvertPage,
+    AdvertSortingPage,
+    AdvertInfoPage,
+    UserSummaryPage,
+    UserDetailPage,
+    BusinessDetailPage,
+    EditBusinessDetailPage
   ],
   providers: [
     StatusBar,

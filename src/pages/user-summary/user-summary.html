@@ -1,0 +1,74 @@
+<ion-content padding>
+
+    <ion-item no-lines>
+        <button item-left ion-button icon-only clear class="btnBack" (click)="Back()">
+            <ion-icon name='arrow-back'></ion-icon>
+        </button>  
+  </ion-item>
+
+  <p class="title">user summary</p>
+
+    <ion-searchbar class="search"></ion-searchbar>
+
+    <ion-toolbar no-border-top>
+        <ion-segment [(ngModel)]="category">
+            <ion-segment-button value="user">
+                User
+            </ion-segment-button>
+            <ion-segment-button value="business">
+                Business
+            </ion-segment-button>
+
+        </ion-segment>
+    </ion-toolbar>
+
+
+    <ion-content>
+        <div [ngSwitch]="category">
+            <ion-list *ngSwitchCase="'business'" (click)="businessdetailbutton()">
+                <ion-item>
+                    <h3 class="h3">Hua ho Department Store</h3>
+                    <p class="p2">huaho@yahoo.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">Giant Hypermarket</h3>
+                    <p class="p2">giant_rimba@gmail.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">McDonald's</h3>
+                    <p class="p2">mcdonald_brunei@gmail.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">Mothercare</h3>
+                    <p class="p2">mothercare_bn@gmail.com</p>
+                </ion-item>
+            </ion-list>
+
+            <ion-list *ngSwitchCase="'user'" (click)="userdetailbutton()">
+                <ion-item>
+                    <h3 class="h3">AR Azimah</h3>
+                    <p class="p2">zumazimah@gmail.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">Iffa Hasnan</h3>
+                    <p class="p2">iffahasnan@gmail.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">hana.syafiqah</h3>
+                    <p class="p2">hanasyafiqah@gmail.com</p>
+                </ion-item>
+
+                <ion-item>
+                    <h3 class="h3">syah.raudhah</h3>
+                    <p class="p2">syahraudhah@gmail.com</p>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+
+</ion-content>

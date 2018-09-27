@@ -1,0 +1,50 @@
+<ion-content padding>
+  <ion-item no-lines class="btnBack">
+          <button item-right ion-button icon-only clear (click)="Back()">
+              <ion-icon name='arrow-back'></ion-icon>
+          </button>
+  </ion-item>
+
+  <p class="title">Remove Advertisement</p>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label floating>File Name</ion-label>
+        <ion-input type="text "></ion-input>
+      </ion-item>
+
+      <ion-item class="upload">
+         Upload
+          <button ion-button item-end icon-only clear>
+            <ion-icon name='image'></ion-icon>
+          </button>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Date</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Tag / Keywords</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Placement</ion-label>
+        <ion-select>
+          <ion-option >TOP</ion-option>
+          <ion-option >Middle, left-1</ion-option>
+          <ion-option >Middle, right-1</ion-option>
+          <ion-option >Middle, left-2</ion-option>
+          <ion-option >Middle, right-2</ion-option>
+          <ion-option >Square 1</ion-option>
+          <ion-option >Square 2</ion-option>
+          <ion-option >Square 3</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </form>
+
+  <button ion-button color="primary" class="btnRemoveAdvert" round (click)="doConfirm()">remove</button>
+</ion-content>

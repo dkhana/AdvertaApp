@@ -1,0 +1,16 @@
+<ion-content padding>
+    <ion-item no-lines class="btnBack">
+        <button item-right ion-button icon-only clear (click)="Back()">
+            <ion-icon name='arrow-back'></ion-icon>
+        </button>
+</ion-item>
+
+<p class="title">advert sorting</p>
+
+<ion-list no-lines >
+    <button ion-item *ngFor="let item of items" value="{{item}}" (click)="advertinfobutton(item)">
+      {{ item }}
+    </button>
+  </ion-list>
+
+</ion-content>

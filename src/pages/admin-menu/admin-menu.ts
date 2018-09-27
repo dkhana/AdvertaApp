@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DashboardAdminPage } from '../dashboard-admin/dashboard-admin';
 import { ServicesMenuPage } from '../services-menu/services-menu';
 import { LoginPage } from '../login/login';
+import { UserSummaryPage } from '../user-summary/user-summary';
 
 @IonicPage()
 @Component({
@@ -17,6 +18,10 @@ export class AdminMenuPage {
 
   Services(){
     this.navCtrl.push(ServicesMenuPage);
+  }
+
+  Summary(){
+    this.navCtrl.push(UserSummaryPage);
   }
 
   adLogout(){
