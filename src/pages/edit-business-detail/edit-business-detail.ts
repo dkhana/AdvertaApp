@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { BusinessDetailPage } from '../business-detail/business-detail';
 
 /**
  * Generated class for the EditBusinessDetailPage page.
@@ -14,6 +15,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'edit-business-detail.html',
 })
 export class EditBusinessDetailPage {
+
+  Back(){
+    this.navCtrl.push(BusinessDetailPage);
+  }
+
+  Save(){
+    this.navCtrl.push(BusinessDetailPage);
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

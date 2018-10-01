@@ -1,3 +1,29 @@
 page-edit-business-detail {
 
+    .title {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 23px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+        margin-left: 20px;
+        width:200px;
+        height: 50px;
+        }
+
+        .save {
+            margin-top: -20%;
+            margin-left: 80%;
+            width: 100px;
+        }
+
+        ion-img {
+            width: 90px;
+            height: 90px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            margin-left: 35%;
+            margin-bottom: 10%;
+        }
+
 }

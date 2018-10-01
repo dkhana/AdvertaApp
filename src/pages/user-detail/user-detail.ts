@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DashboardAdminPage } from '../dashboard-admin/dashboard-admin';
+import { UserSummaryPage } from '../user-summary/user-summary';
 
 
 /**
@@ -18,7 +18,7 @@ import { DashboardAdminPage } from '../dashboard-admin/dashboard-admin';
 export class UserDetailPage {
 
   Back(){
-    this.navCtrl.push(DashboardAdminPage);
+    this.navCtrl.push(UserSummaryPage);
   }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
